@@ -55,4 +55,5 @@ git add #в индекс
 commit -m "Коменнт" #Записать изменения в репозиторий (локально)
 git push -u origin main #Записать на сервер
 
-git restore del.txt # Восстановить файл из последнего коммита
+git restore del.txt # Восстановить файл из последнего коммита (локально)
+git checkout e7f0f1e -- del.txt 
