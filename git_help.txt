@@ -68,4 +68,7 @@ git switch testing #Переключение между ветками (можн
 git merge hotfix #слияние ветки (вызывается из master)
 git branch -d hotfix #Удаление ветки (например после слияния)
 
-git rebase master test #Преобразование (аналог merge но история комитов бедет понятнее)
+git rebase main test2 #Преобразование (аналог merge но история комитов бедет понятнее)
+git switch main 
+git merge test2 
+git branch -d test2 
