@@ -82,3 +82,5 @@ git branch -d test2
 
 
 git add . && git commit -m "Коменнт" && git push -u origin main && git log --oneline --decorate
+или 
+git commit -a -m "Комент" && git log --oneline --decorate
