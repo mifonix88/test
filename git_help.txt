@@ -51,8 +51,14 @@ C:\Users\user>git
 
 
 git remote add origin https://github.com/mifonix88/test.git #подключить репозиторий
+
 git pull #скачать изменения
+git fetch origin
+
 git add . #в индекс 
+
+git diff --check #Выведет список ненужных пробелов
+
 git commit -m "Коменнт" #Записать изменения в репозиторий (локально)
 git push -u origin main #Записать на сервер
 
@@ -72,3 +78,6 @@ git rebase main test2 #Преобразование (аналог merge но и�
 git switch main 
 git merge test2 
 git branch -d test2 
+
+
+git add . && git commit -m "Коменнт" && git push -u origin main
