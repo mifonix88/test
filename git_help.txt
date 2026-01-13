@@ -59,9 +59,11 @@ git push -u origin main #Записать на сервер
 git restore del.txt # Восстановить файл из последнего коммита (локально)
 git checkout e7f0f1e -- del.txt 
 
+git log --oneline --decorate #колмиты
+
 git branch -vv# Посмотреть ветки
 git branch testing #Новая ветка
-git log --oneline --decorate #колмиты
+
 git switch testing #Переключение между ветками (можно вместо switch использовать checkout)
 git merge hotfix #слияние ветки (вызывается из master)
 git branch -d hotfix #Удаление ветки (например после слияния)
