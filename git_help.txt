@@ -51,8 +51,8 @@ C:\Users\user>git
 
 git remote add origin https://github.com/mifonix88/test.git #подключить репозиторий
 git pull #скачать изменения
-git add #в индекс 
-commit -m "Коменнт" #Записать изменения в репозиторий (локально)
+git add . #в индекс 
+git commit -m "Коменнт" #Записать изменения в репозиторий (локально)
 git push -u origin main #Записать на сервер
 
 git restore del.txt # Восстановить файл из последнего коммита (локально)
